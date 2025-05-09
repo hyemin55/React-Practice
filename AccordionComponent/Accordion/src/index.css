@@ -1,0 +1,36 @@
+:root,
+html,
+body,
+h1{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-size: 10pt;
+}
+
+.AppSection{
+  width: 50vw;
+  height: auto;
+  margin: 3% auto;
+  cursor: default;
+}
+
+.Title{
+  background-color: #ddd;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+  padding: 2%;
+}
+.Title h1{
+  font-size: 3rem;
+  cursor: pointer;
+}
+.Content{
+  border: 1px solid #ddd;
+  padding: 2%;
+  width: 50vw;
+  font-size: 1.8rem;
+}
